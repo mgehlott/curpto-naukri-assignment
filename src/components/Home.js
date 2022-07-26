@@ -2,10 +2,10 @@ import React from 'react'
 import { BsPerson } from 'react-icons/bs';
 import { AiOutlineArrowRight } from 'react-icons/ai'; 
 import { MdOutlineBusinessCenter } from 'react-icons/md'; 
-import Card from './Card';
+import Card from './Ui/Card';
 
+function Home({nextPageHandler}) {
 
-function Home() {
   return (
      <>
           
@@ -17,7 +17,7 @@ function Home() {
                   <p className='text-black text-2xl font-bold '>Join Us!</p>
                   <p className='w-[320px] text-appGray mt-2'>To begin this journey, tell us what type of account you’d be opening.</p>
               </div>
-          <Card>
+          <Card onClick={nextPageHandler} v>
                   <div className='bg-polygon w-[50px] h-12 bg-no-repeat flex  justify-center'  >
                   <BsPerson className='text-white w-4 h-8 m-auto flex justify-center' />
                   </div>
