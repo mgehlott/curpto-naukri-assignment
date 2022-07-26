@@ -17,7 +17,7 @@ function Home({nextPageHandler}) {
                   <p className='text-black text-2xl font-bold '>Join Us!</p>
                   <p className='w-[320px] text-appGray mt-2'>To begin this journey, tell us what type of account you’d be opening.</p>
               </div>
-          <Card onClick={nextPageHandler} v>
+          <Card onClick={nextPageHandler} >
                   <div className='bg-polygon w-[50px] h-12 bg-no-repeat flex  justify-center'  >
                   <BsPerson className='text-white w-4 h-8 m-auto flex justify-center' />
                   </div>

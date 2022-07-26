@@ -1,5 +1,4 @@
 import React from 'react'
-import { IoChevronBack } from 'react-icons/io5';
 import { FcGoogle } from 'react-icons/fc';
 import Textfield from './Textfield';
 import Button from './Ui/Button';
